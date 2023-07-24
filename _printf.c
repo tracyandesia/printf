@@ -31,14 +31,14 @@ for (j = 0; format && format[j] != '\0'; j++)
 	{
 		print_buffer(buffer, &buff_ind);
 		flags = get_flags(format, &j);
-		width = get-width(format, &j, list);
+		width = get_width(format, &j, list);
 		precision = get_precision(format, &j, list);
 		size = get_size(format, &j);
 
 		++j;
 
 
-		printed= handle_print(format, &j, list, buffer, flags, width, precision, size);
+printed = handle_print(format, &j, list, buffer, flags, width, precision, size);
 
 		if (printed == -1)
 			return (-1);
