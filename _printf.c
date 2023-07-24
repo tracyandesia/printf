@@ -31,7 +31,7 @@ if (format[j] != '%')
 
 {
 
-buffer[buff_ind++] = format[i];
+buffer[buff_ind++] = format[j];
 
 if (buff_ind == BUFF_SIZE)
 
