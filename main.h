@@ -149,13 +149,13 @@ int flags, int width, int precision, int size);
 
 /* Funciotns to handle other specifiers */
 
-int get_flags(const char *format, int *j);
+int get_flags(const char *format, int *i);
 
-int get_width(const char *format, int *j, va_list list);
+int get_width(const char *format, int *i, va_list list);
 
-int get_precision(const char *format, int *j, va_list list);
+int get_precision(const char *format, int *i va_list list);
 
-int get_size(const char *format, int *j);
+int get_size(const char *format, int *i);
 
 
 
