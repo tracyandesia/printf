@@ -22,7 +22,7 @@ int is_printable(char c)
  * @ascii_code: ASSCI CODE.
  * Return: Always 3
  */
-int append_hexa_code(char ascii_code, char buffer[], int i)
+int append_hexa_code(char ascii_code, char buffer[], int j)
 {
 	char map_to[] = "0123456789ABCDEF";
 	/* The hexa format code is always 2 digits long */
